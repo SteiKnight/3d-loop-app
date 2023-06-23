@@ -1,4 +1,4 @@
-import loopVideo from "./src/videos/loopVideo.mp4"
+import loopVideo from "/src/videos/loopVideo.mp4"
 
 const CarVideo = () => {
   return (

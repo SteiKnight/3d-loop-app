@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { animationStart } from "./utils/animation";
-import map1 from "./src/images/map1.png"
-import map2 from "./src/images/map2.png"
+import map1 from "/src/images/map1.png"
+import map2 from "/src/images/map2.png"
 
 const MapImages = () => {
   return (
