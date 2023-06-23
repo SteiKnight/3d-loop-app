@@ -6,8 +6,9 @@ import { animationStart, reveal } from "./utils/animation";
 const Navbar = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      variants={reveal}
+      initial="hiddenVariant"
+      animate="revealedVariant"
       transition={{ duration: 0.5, delay: animationStart }}
     >
       <motion.div
