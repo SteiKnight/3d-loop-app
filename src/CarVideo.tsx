@@ -1,3 +1,5 @@
+import loopVideo from "./src/videos/loopVideo.mp4"
+
 const CarVideo = () => {
   return (
     <video
@@ -6,7 +8,7 @@ const CarVideo = () => {
       muted
       loop
     >
-      <source src="./src/videos/loopVideo.mp4" type="video/mp4" />
+      <source src={loopVideo} type="video/mp4" />
     </video>
   );
 };
