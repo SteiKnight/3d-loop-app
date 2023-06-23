@@ -9,19 +9,6 @@ export default defineConfig({
     // create classnames from fileName and displayName in development
     react({
       babel: {
-        presets: ['@babel/preset-typescript'],
-        plugins: [
-          '@babel/plugin-transform-typescript',
-          [
-            'babel-plugin-styled-components',
-            {
-              ssr: false,
-              pure: true,
-              displayName: true,
-              fileName: false,
-            },
-          ],
-        ],
         base: "/3d-loop-app/"
       },
     }), WindiCSS()
