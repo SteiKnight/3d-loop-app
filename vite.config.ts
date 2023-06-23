@@ -22,6 +22,7 @@ export default defineConfig({
             },
           ],
         ],
+        base: "/3d-loop-app/"
       },
     }), WindiCSS()
   ]
