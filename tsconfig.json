@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "windi.config.ts"],
+  "include": ["src","global.d.ts","windi.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

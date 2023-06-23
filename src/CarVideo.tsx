@@ -1,10 +1,14 @@
-
 const CarVideo = () => {
   return (
-     <video className="h-100vh w-full object-cover" autoPlay muted loop>
-        <source src="src/videos/pexels-tom-fisk.mp4" type="video/mp4"/>
+    <video
+      className="h-100vh w-full object-cover animate-clip-from-top-animation"
+      autoPlay
+      muted
+      loop
+    >
+      <source src="src/videos/pexels-tom-fisk.mp4" type="video/mp4" />
     </video>
-  )
-}
+  );
+};
 
-export default CarVideo
+export default CarVideo;

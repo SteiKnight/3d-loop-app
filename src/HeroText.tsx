@@ -17,7 +17,7 @@ const HeroText = () => {
         animate="revealedVariant"
         transition={{ delay: animationStart + 1, duration: 0.5 }}
         className="flex flex-col text-3vw <md:text-24px font-bold mb-30px"
-      >
+        >
         <span className="flex items-center gap-10px">
           Get There <Compass /> Get Back
         </span>
