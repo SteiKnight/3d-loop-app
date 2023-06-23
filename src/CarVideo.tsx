@@ -6,7 +6,7 @@ const CarVideo = () => {
       muted
       loop
     >
-      <source src="src/videos/loopVideo.mp4" type="video/mp4" />
+      <source src="./src/videos/loopVideo.mp4" type="video/mp4" />
     </video>
   );
 };
